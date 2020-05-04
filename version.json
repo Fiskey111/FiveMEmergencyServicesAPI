@@ -1,4 +1,11 @@
 {
-    "version": "05.04.2020",
-    "changelog": "None"
+  "Version": [
+    5,
+    4,
+    2020
+  ],
+  "Changelog": [
+    "Added automatic version checker",
+    "Added DJ support"
+  ]
 }
