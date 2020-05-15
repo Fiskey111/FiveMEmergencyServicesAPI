@@ -1,11 +1,4 @@
 {
   "Version" : "05.15.2020.00",
-  "Changelog" : ["Fixed crash when players are accessing menu while others are joining", 
-                 "Fixed a couple other small callout bugs",
-                 "Added automatic version checker", 
-                 "Added DJ support (not available currently)", 
-                 "Optimized distance audio functions", 
-                 "Added server-side backup command: see 0_backup folder for details", 
-                 "Added fire alarm stop distance as a setting"
-                ]
+  "Changelog" : ["Fixed crash when players are accessing menu while others are joining", "Fixed a couple other small callout bugs","Added automatic version checker", "Added DJ support (not available currently)", "Optimized distance audio functions", "Added server-side backup command: see 0_backup folder for details", "Added fire alarm stop distance as a setting"]
 }
