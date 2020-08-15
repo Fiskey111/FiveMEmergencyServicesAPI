@@ -1,0 +1,50 @@
+namespace Client.EmergencyAPI.Internal
+{
+    /// <summary>
+    /// This is my internal player class that handles all player information in the modification.
+    /// </summary>
+    public class GamePlayer
+    {
+      // TBD
+    }
+
+    public class Fire
+    {
+        /// <summary>
+        /// Adds a particle to the synced particle pool
+        /// </summary>
+        /// <param name="particles">The particles to sync to all clients</param>
+        public static void AddManagedParticle(List<ManagedParticle> particles)
+
+        /// <summary>
+        /// Removes a particle from the synced particle pool
+        /// </summary>
+        /// <param name="particles">The particles to un-sync to all clients</param>
+        public static void RemoveManagedParticle(List<ManagedParticle> particles)
+
+        /// <summary>
+        /// Gets updated particle references for any particles that have been synced to clients.  Call this after "AddManagedParticle" (but wait a few seconds for latency purposes)
+        /// </summary>
+        /// <param name="particles">The particles to get new references to</param>
+        public static List<ManagedParticle> GetDetectionParticles(List<ManagedParticle> particles)
+    }
+
+    public class Callouts
+    {
+        /// <summary>
+        /// Adds a callout to the callout manager
+        /// </summary>
+        /// <param name="calloutType">The callout class to be called</param>
+        /// <param name="probability">The probability this callout will be selected</param>
+        /// <param name="division">The division this callout applies to</param>
+        /// <returns>Whether the callout was successfully added or not</returns>
+        public static bool RegisterCallout(Type calloutType, CalloutBase.CalloutProbability probability, EDivision division)
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="calloutType"></param>
+        /// <returns></returns>
+        public static bool UnregisterCallout(Type calloutType)
+    }
+}
