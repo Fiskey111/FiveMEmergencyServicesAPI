@@ -41,10 +41,10 @@ namespace Client.EmergencyAPI.Internal
         public static bool RegisterCallout(Type calloutType, CalloutBase.CalloutProbability probability, EDivision division)
 
         /// <summary>
-        /// 
+        /// Removes a callout from the callout manager
         /// </summary>
-        /// <param name="calloutType"></param>
-        /// <returns></returns>
+        /// <param name="calloutType">The callout class to remove from the manager</param>
+        /// <returns>True if successfully removed</returns>
         public static bool UnregisterCallout(Type calloutType)
     }
 }
