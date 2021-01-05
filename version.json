@@ -1,4 +1,4 @@
 {
-  "Version" : "11.01.2020.00",
-  "Changelog" : ["Added much more error catching", "Removed IP address data collection (will be replaced with country at some point).", "Consolidated all logging through one method", "Removed obsolete files and cleaned up existing files"]
+  "Version" : "01.05.2021.00",
+  "Changelog" : [""]
 }
